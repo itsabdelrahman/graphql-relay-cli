@@ -1,0 +1,19 @@
+{
+  "name": "graphql-relay-cli",
+  "version": "0.0.1",
+  "description": "A CLI tool for GraphQL Relay",
+  "bin": {
+    "relay": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar-maged/graphql-relay-cli.git"
+  },
+  "keywords": ["graphql", "relay", "cli", "toGlobalId", "fromGlobalId"],
+  "author": "A.R. Maged <abdulrahman.maged95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ar-maged/graphql-relay-cli/issues"
+  },
+  "homepage": "https://github.com/ar-maged/graphql-relay-cli#readme"
+}
