@@ -1,3 +1,6 @@
+#! /usr/bin/env node
+'use strict';
+
 const { base64, unbase64 } = require('./utils');
 
 const toGlobalId = (type, id) => base64([type, id].join(':'));
