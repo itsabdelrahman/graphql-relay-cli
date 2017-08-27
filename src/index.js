@@ -5,7 +5,10 @@ const program = require('commander');
 const { description, version } = require('../package.json');
 const { toGlobalId, fromGlobalId } = require('./logic');
 
-program.version(version).description(description);
+program
+  .version(version)
+  .description(description)
+  .usage('<command> [args]');
 
 program
   .command('toGlobalId <type> <id>')
@@ -24,3 +27,7 @@ program
   });
 
 program.parse(process.argv);
+
+if (process.argv.length < 2) {
+  program.outputHelp();
+}
