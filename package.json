@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ar-maged/graphql-relay-cli/issues"
   },
-  "homepage": "https://github.com/ar-maged/graphql-relay-cli#readme"
+  "homepage": "https://github.com/ar-maged/graphql-relay-cli#readme",
+  "dependencies": {
+    "commander": "2.11.0"
+  }
 }
