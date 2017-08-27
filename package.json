@@ -2,6 +2,7 @@
   "name": "graphql-relay-cli",
   "version": "0.0.1",
   "description": "A CLI tool for GraphQL Relay",
+  "main": "src/index.js",
   "bin": {
     "relay": "src/index.js"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ar-maged/graphql-relay-cli/issues"
   },
-  "homepage": "https://github.com/ar-maged/graphql-relay-cli#readme"
+  "homepage": "https://github.com/ar-maged/graphql-relay-cli#readme",
+  "dependencies": {
+    "commander": "2.11.0"
+  }
 }
