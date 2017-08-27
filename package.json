@@ -2,6 +2,7 @@
   "name": "graphql-relay-cli",
   "version": "0.0.1",
   "description": "A CLI tool for GraphQL Relay",
+  "main": "src/index.js",
   "bin": {
     "relay": "src/index.js"
   },
