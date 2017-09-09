@@ -14,24 +14,21 @@ npm install --global graphql-relay-cli
 
 ## Commands
 
-### `toGlobalId`
+#### `toGlobalId`
 
 Takes a type name and an ID specific to that type, and returns a global ID that is unique among all types.
 
-```shell
-$ relay toGlobalId User 507f1f77bcf86cd799439011
-> Global ID: VXNlcjo1MDdmMWY3N2JjZjg2Y2Q3OTk0MzkwMTE=
-```
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/11808903/30244330-31edcc06-95bc-11e7-9a01-4e3144bd64dc.gif"/>
+</p>
 
-### `fromGlobalId`
+#### `fromGlobalId`
 
 Takes the global ID created by toGlobalID, and returns the type name and ID used to create it.
 
-```shell
-$ relay fromGlobalId VXNlcjo1MDdmMWY3N2JjZjg2Y2Q3OTk0MzkwMTE=
-> Type: User
-> ID: 507f1f77bcf86cd799439011
-```
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/11808903/30244349-79af4b0a-95bc-11e7-9605-939bc7c52010.gif"/>
+</p>
 
 ## License
 
