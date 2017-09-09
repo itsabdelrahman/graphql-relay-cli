@@ -9,7 +9,7 @@
 ## Installation
 
 ```
-npm install --global graphql-relay-cli
+$ npm i -g graphql-relay-cli
 ```
 
 ## Commands
@@ -19,7 +19,7 @@ npm install --global graphql-relay-cli
 Takes a type name and an ID specific to that type, and returns a global ID that is unique among all types.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/11808903/30244330-31edcc06-95bc-11e7-9a01-4e3144bd64dc.gif"/>
+  <img src="https://user-images.githubusercontent.com/11808903/30244381-1b99bcb6-95bd-11e7-9c02-66b372a651dc.gif"/>
 </p>
 
 #### `fromGlobalId`
@@ -27,7 +27,7 @@ Takes a type name and an ID specific to that type, and returns a global ID that 
 Takes the global ID created by toGlobalID, and returns the type name and ID used to create it.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/11808903/30244349-79af4b0a-95bc-11e7-9605-939bc7c52010.gif"/>
+  <img src="https://user-images.githubusercontent.com/11808903/30244391-59a52428-95bd-11e7-9271-31d636b7f18e.gif"/>
 </p>
 
 ## License
