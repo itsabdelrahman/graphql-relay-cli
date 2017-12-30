@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://cdn.auth0.com/blog/react-js/react.png" width="80"/>
-  <img src="https://facebook.github.io/relay/img/logo.svg" width="80"/>
-  <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-512.png" width="80"/>
+  <img src="https://user-images.githubusercontent.com/11808903/34455779-04ed17f4-ed8f-11e7-8a75-3cf33b76d20f.png" width="80"/>
+  <img src="https://user-images.githubusercontent.com/11808903/34455783-19257194-ed8f-11e7-9008-87f3608f9aeb.png" width="80"/>
+  <img src="https://user-images.githubusercontent.com/11808903/34455780-052a88dc-ed8f-11e7-9321-d2eb45735e6e.png" width="80"/>
 </p>
 
 <h1 align="center">GraphQL Relay CLI</h1>
